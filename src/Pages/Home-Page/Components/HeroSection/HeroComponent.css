@@ -1,0 +1,22 @@
+
+.hro-heading{
+  display: flex;
+  flex-direction: column;
+}
+.hero-text{
+  display: flex;
+  flex-direction: column;
+}
+.hero>:nth-child(4){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero{
+  height: 36rem;
+  z-index: -10;
+  padding: 1.6rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}

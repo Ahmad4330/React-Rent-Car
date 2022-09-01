@@ -1,0 +1,77 @@
+.card2{
+  background: #FFFFFF;
+border-radius: 10px;
+padding: 2.4rem;
+max-width: 32rem;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+.set-last{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.card-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-top>:nth-child(2){
+height: 2.4rem;
+width: 2.4rem;
+fill: var(--red);
+color: black;
+}
+.card-top>:nth-child(2)>:nth-child(1){
+  height: 2.4rem;
+  width: 2.4rem;
+  /* fill: var(--red); */
+  /* color: black; */
+  }
+.fuel{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fuel>div{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.fuel>div>:nth-child(1){
+  height: 2.4rem;
+  width: 2.4rem;
+  color: var(--lightGray);
+}
+.card-end{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 2.4rem; */
+}
+.card-end>div{
+  display: flex;
+  /* align-items: center; */
+}
+.card-btn{
+  background-color: var(--darkblue);
+}
+.discount{
+  display: flex;
+  flex-direction: column;
+}
+.discount>div{
+  display: flex;
+}
+.dsicountt{
+  display: flex;
+  align-items: baseline;
+    -webkit-text-decoration-line: line-through; /* Safari */
+   text-decoration-line: line-through; 
+}
+.main>img{
+  width: 100%;
+}

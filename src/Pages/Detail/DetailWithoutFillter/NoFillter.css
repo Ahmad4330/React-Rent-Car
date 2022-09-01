@@ -1,0 +1,21 @@
+.detail{
+  max-width: 144rem;
+  margin: 0 auto;
+}
+.detial-containerrr{
+  display: block;
+}
+.deet-right{
+  padding: 3.4rem !important;
+  gap: 4.2rem !important;
+  height: 55.6rem !important;
+}
+.detail-fotter{
+  padding-bottom: 2.4rem !important;
+}
+.small-pics>img{
+  width: 31%;
+}
+.card2{
+  max-width: 40rem;
+}

@@ -1,0 +1,13 @@
+.from-two{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  background-color: var(--white);
+  padding: 2.4rem;
+  border-radius: 10px;
+}
+.pickupp{
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}

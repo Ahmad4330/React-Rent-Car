@@ -1,0 +1,39 @@
+
+.review-container {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 2.4rem;
+}
+.review-container > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+/* Review  */
+.review-top {
+  display: flex;
+  gap: 1.2rem;
+}
+.review-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.comment-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-btn {
+  background: var(--white);
+  color: #90a3bf;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}

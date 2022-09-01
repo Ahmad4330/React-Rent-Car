@@ -1,0 +1,43 @@
+.from-one{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  background-color: var(--white);
+  padding: 2.4rem;
+  border-radius: 10px;
+}
+.forms{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.forms>div{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem
+
+}
+.forms>div>div{
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.first-form{
+
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  color: var(--lightGray);
+  width: auto;
+  height: auto;
+  background: var(--FormColor);
+
+}
+.input-width{
+  padding: 1.6rem 3.2rem;
+  background: var(--FormColor);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

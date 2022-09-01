@@ -1,0 +1,50 @@
+.from-three{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  background-color: var(--white);
+  padding: 2.4rem;
+  border-radius: 10px;
+}
+.visa{
+  background: #F6F7F9;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  border-radius: 10px;
+}
+.change{
+background: #FFFFFF;  
+}
+.visa-change{
+  background: #FFFFFF;  
+}
+.visa-heading>div{
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.visa-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visa-heading>div>img{
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.paypal{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 3.2rem;
+  background: #F6F7F9;
+  border-radius: 10px;
+}
+.paypal>div{
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}

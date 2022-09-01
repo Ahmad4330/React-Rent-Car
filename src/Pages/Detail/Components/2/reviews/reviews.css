@@ -1,0 +1,43 @@
+.review-comments{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.comment-left>img{
+  width: 28%;
+}
+.comment-left>div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.comment-right{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.review-top>div{
+  background: var(--darkblue);
+  border-radius: 4px;
+  padding: 0 2rem;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review-span{
+  color: white !important;
+}
+.comment-left{
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.checked {
+  color: orange;
+}
+.staar>span{
+font-size: 2rem;
+}
+.second-comment{
+ padding-left: 7.4rem;
+}

@@ -1,0 +1,23 @@
+.popular{
+  margin-top: 3.2rem;
+  padding: 0 3.2rem;
+}
+.popular-btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 2.4rem;
+}
+.poplar{
+  color: var(--lightGray);
+}
+.poplaar{
+  color: var(--darkblue);
+}
+.items{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 3.2rem;
+  gap: 2rem;
+}

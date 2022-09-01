@@ -1,0 +1,13 @@
+.top-headig{
+  display: flex;
+  justify-content: space-between;
+}
+.top-headig>div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.top-headig>:nth-child(2){
+  display: flex;
+  align-items: flex-end;
+}

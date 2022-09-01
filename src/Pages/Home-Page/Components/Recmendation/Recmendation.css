@@ -1,0 +1,34 @@
+.recmendation{
+  margin-top: 3.2rem;
+  padding: 0 3.2rem;
+  padding-bottom: 7.2rem;
+}
+
+.recmendation-btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 2.4rem;
+}
+.recmend{
+  color: var(--lightGray);
+}
+.recmeend{
+  color: var(--darkblue);
+}
+.items{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 3.2rem;
+  gap: 2rem;
+}
+.recmended-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.4rem;
+}
+.recmend-btn{
+  background-color: var(--darkblue);
+}

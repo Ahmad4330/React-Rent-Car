@@ -1,0 +1,66 @@
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2.4rem 4.8rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.cards{
+  display: flex;
+
+}
+.pick-detail{
+  display: flex;
+  gap: 3.4rem;
+}
+.div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+}
+.location{
+  border-right: 1px solid rgba(195, 212, 233, 0.4);
+  padding-right: 2.4rem;
+}
+.date{
+  border-right: 1px solid rgba(195, 212, 233, 0.4);
+  padding-right: 2.4rem;
+}
+.div>div{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.div>div>:nth-child(2){
+  height: 1.6rem;
+  width: 1.6rem;
+  cursor: pointer;
+}
+.pick{
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.drop{
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.pick>div{
+  background-color: var(--darkblue);
+  border: 5px solid var(--lightblue);
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+}
+.drop>div{
+  background-color: var(--lightblue);
+  border: 5px solid #3563e96e;
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+}
+

@@ -1,0 +1,28 @@
+.from-four{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  background-color: var(--white);
+  padding: 2.4rem;
+  border-radius: 10px;
+}
+.agree{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.6rem 3.2rem;
+  background: #F6F7F9;
+  border-radius: 10px;
+}
+.colourr{
+  background: var(--darkblue);
+}
+.last-form-section{
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.last-form-section>img{
+  height: 2.4rem;
+  width: 2.4rem;
+}

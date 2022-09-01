@@ -1,0 +1,105 @@
+.drop-offf{
+  margin-bottom: 3.6rem;
+}
+.dropOff-containerr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 2.4rem;
+}
+.centerr{
+  background-color: var(--darkblue);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  border-radius: 10px;
+  padding: 1.6rem 0.8rem;
+  z-index: 0;
+  position: absolute;
+  left: 47.2%;
+}
+.center>:nth-child(1){
+  height: 1.8rem;
+  width: 1.8rem;
+  color: white;
+  z-index: 10;
+}
+.center>:nth-child(2){
+  height: 1.8rem;
+  width: 1.8rem;
+  color: white;
+}
+
+
+
+/* Card */
+
+.Card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2.4rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.cards{
+  display: flex;
+
+}
+.piick-detail{
+  display: flex;
+  gap: 1.4rem;
+}
+.diiv{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+}
+.locaation{
+  border-right: 1px solid rgba(195, 212, 233, 0.4);
+  padding-right: 2.4rem;
+}
+.daate{
+  border-right: 1px solid rgba(195, 212, 233, 0.4);
+  padding-right: 2.4rem;
+}
+.diiv>div{
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+.diiv>div>:nth-child(2){
+  height: 2.4rem;
+  width: 2.4rem;
+  cursor: pointer;
+}
+.pick{
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.drop{
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.pick>div{
+  background-color: var(--darkblue);
+  border: 5px solid var(--lightblue);
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+}
+.drop>div{
+  background-color: var(--lightblue);
+  border: 5px solid #3563e96e;
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+}
+
